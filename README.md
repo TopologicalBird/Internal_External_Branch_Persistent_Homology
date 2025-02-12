@@ -21,8 +21,22 @@ Then, we get persistence diagrams $PD_1(X)$ and $PD_1(X\cup U)$.
 
 We define the internal structure as $PD_1(X)\cap PD_1(X\cup U)$ and the external structure as $PD_1(X\cup U)\backslash PD_1(X)$.
 
+We can visualize our internal and external structures with a simple inverse analysis. 
 
+The blue circle plots correspond to the internal structure and the red diamond plots correspond to the external structure.
+
+
+## Related Paper (This information is old. We will link to the latest version soon.)
 This code is based on the following article:
 
 https://doi.org/10.48550/arXiv.2402.07436
+
+In this paper, we verify our tool from different perspectives.
+
+## Persistent homology calculation
+This code uses HomCloud for the persistent homology calculation.
+
+The installation guide for HomCloud can be found here.
+
+https://homcloud.dev/index.en.html
 
