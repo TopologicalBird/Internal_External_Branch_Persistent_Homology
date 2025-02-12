@@ -1,11 +1,16 @@
 # Persistent Homology Tool for Branch Structure Analysis
 
+## Motivation
 When analyzing branch structures, we often separate internal and external structures.
 
 However, their separation is sometimes ambiguous, and an objective tool to define the internal and external structures is beneficial.
 
-Here, we define internal and external structures in branches using persistent homology.
+## What is this?
+Here, we provide a tool to define internal and external structures in branches using persistent homology.
 
+This tool allows us to tune the internal and external structures in an objective, quantitative, and reproducible way.
+
+## Method
 Given a point cloud $X$ (white pixels in the original branch image), we add new points $U$ on the boundary of the convex hull of $X$.
 
 (In this code, we use convex hull, but you can make modification here.)
