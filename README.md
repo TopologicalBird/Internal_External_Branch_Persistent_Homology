@@ -25,6 +25,14 @@ We can visualize our internal and external structures with a simple inverse anal
 
 The blue circle plots correspond to the internal structure and the red diamond plots correspond to the external structure.
 
+## Parameter tuning
+Our parameter for changing the internal and external structures is the $U$ above.
+
+In this code, we change $U$ by the $\texttt{dist}$ variable. $\texttt{dist}$ represents the interval of the points we plot on the boundary of the convex hull.
+
+(You can make it more flexible by allowing manual inputs, etc.)
+
+Tips for parameter tuning can be found in the related paper below.
 
 ## Related Paper (This information is old. We will link to the latest version soon.)
 This code is based on the following article:
